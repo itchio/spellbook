@@ -729,7 +729,7 @@ fb9:
   a("\\b, InnoSetup uninstaller")
   d[2]=t
 fba:
-  rA=ht(r,s,po,61440,"Inno Setup Setup Data")
+  rA=ht(r,s,po,4294967295,"Inno Setup Setup Data")
   if rA<0 {goto fbb}
   a("\\b, InnoSetup installer")
   d[2]=t
